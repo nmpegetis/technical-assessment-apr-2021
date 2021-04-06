@@ -2,10 +2,20 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HandComponent } from './hand/hand.component';
+import { OptionsTriangleComponent } from './options-triangle/options-triangle.component';
+import { RulesComponent } from './rules/rules.component';
+import { GameBoardComponent } from './game-board/game-board.component';
+import { VersusComponent } from './versus/versus.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HandComponent,
+    OptionsTriangleComponent,
+    RulesComponent,
+    GameBoardComponent,
+    VersusComponent
   ],
   imports: [
     BrowserModule

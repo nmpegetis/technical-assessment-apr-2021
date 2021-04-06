@@ -1,0 +1,5 @@
+<div class="triangle">
+	<div *ngFor="let hand of getHands() | keyvalue" class="vertice">
+		<hand [color]="hand.value" [logo]="hand.key" [userSelectionHandler]="userSelectionHandler"></hand>
+	</div>
+</div>
