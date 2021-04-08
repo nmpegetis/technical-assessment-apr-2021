@@ -1,4 +1,30 @@
-# App
+## Rock-Paper-Scissors App in Typescript and Angular
+
+For the Rock-Paper-Scissors assessment I decided to implement a solution using an Angular with Typescript and provide also a UI enviromnent.
+
+I used the latest **Angular 11** with **Typescript v4.1** and also deployed the application to Heroku using a Github pipeline for automated build and deploy when commits happen to the `main` branch. Notice that there was also needed a small configuration in the deployment as I decided to use Monorepo approach in all the assessments and have multiple deployment enviromnent but for one monorepo.
+
+The application is deployed in:
+[https://rock-paper-scissors-apr21.herokuapp.com/](https://rock-paper-scissors-apr21.herokuapp.com/)
+
+In order to run the development server locally you should use the following commands:
+
+```
+npm i
+npm run start:local
+```
+and open your browser on [http://localhost:4200/](http://localhost:4200/)
+
+
+In order to run the productive server locally (the one that is deployed in heroku) you should use the following commands:
+
+```
+npm i
+npm start
+```
+and open your browser on [http://localhost:8080/](http://localhost:8080/)
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
