@@ -13,8 +13,13 @@ In order to run the development server locally you should use the following comm
 npm i
 npm run start:local
 ```
+
+![npm run start:local screenshot](screenshots/localStart.png "npm run start:local")
+
 and open your browser on [http://localhost:4200/](http://localhost:4200/)
 
+
+![app screenshot](screenshots/app.png "Rock-Paper-Scissors App")
 
 In order to run the productive server locally (the one that is deployed in heroku) you should use the following commands:
 

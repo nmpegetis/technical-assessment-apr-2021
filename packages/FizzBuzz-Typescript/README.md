@@ -12,12 +12,18 @@ npm i
 npm start
 ```
 
+![npm start screenshot](screenshots/start.png "npm start")
+
 In order to test use:
 ```
 npm test
 ```
 
+![npm test screenshot](screenshots/test.png "npm test")
+
 In order to see test coverage use:
 ```
 npm run coverage
 ```
+
+![npm run coverage screenshot](screenshots/coverage.png "npm run coverage")

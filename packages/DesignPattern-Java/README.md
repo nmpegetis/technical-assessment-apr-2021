@@ -15,3 +15,8 @@ mvn clean compile
 mvn exec:java -Dexec.mainClass="observer.stockmarketindices.main.ObserverMain"
 ```
 
+![mvn clean compile screenshot](screenshots/compile.png "mvn clean compile")
+
+![mvn exec:java -Dexec.mainClass="observer.stockmarketindices.main.ObserverMain" screenshot](screenshots/execStart.png "mvn exec:java -Dexec.mainClass='observer.stockmarketindices.main.ObserverMain'")
+
+![mvn exec:java -Dexec.mainClass="observer.stockmarketindices.main.ObserverMain" screenshot](screenshots/execEnd.png "mvn exec:java -Dexec.mainClass='observer.stockmarketindices.main.ObserverMain'")
