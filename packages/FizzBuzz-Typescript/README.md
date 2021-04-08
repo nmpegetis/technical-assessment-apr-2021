@@ -19,5 +19,5 @@ npm test
 
 In order to see test coverage use:
 ```
-npm coverage
+npm run coverage
 ```
